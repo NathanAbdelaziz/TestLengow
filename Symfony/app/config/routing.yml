@@ -1,0 +1,12 @@
+test:
+    resource: "@TestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+recup:
+    path: /xml
+    defaults: { _controller: TestBundle:XML:index }

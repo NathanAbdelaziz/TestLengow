@@ -1,0 +1,7 @@
+<h1>Télécharger le fichier XML :</h1>
+{{ url }}
+<form action="{{ path('recup') }}" method="post">
+    <label for="logger">Login :</label> 
+    <input type="text" id="logger" name="logger"  />
+    <input type="submit" value="Télécharger" />
+</form>

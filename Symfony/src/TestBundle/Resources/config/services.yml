@@ -1,0 +1,4 @@
+services:
+    lengow_test:
+        class: TestBundle\Controller\XMLController
+        arguments: ["%url_orders%", "@logger"]
